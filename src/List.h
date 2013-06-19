@@ -1,9 +1,10 @@
 #ifndef __LIST_HEADER__
 #define __LIST_HEADER__
 
-typedef struct List_t {
-  struct List_t *next;
+typedef struct List List;
 
+typedef struct List {
+  List *next;
 } List;
 
 List *createList(void);
