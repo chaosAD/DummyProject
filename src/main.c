@@ -8,6 +8,8 @@ int main()
 {
     List *l = createList();
 
+    printf("hi there my friend\n");
+
     printf("Hello world!\n");
     return 0;
 }
