@@ -9,7 +9,12 @@
  */
 int main()
 {
-    List *l = createList();
+    List *list = NULL;
+
+    listAppend(&list, (void *)2);
+    listAppend(&list, (void *)3);
+    listAppend(&list, (void *)4);
+    listDump(list);
 
     printf("hi there my dear friend\n");
 
