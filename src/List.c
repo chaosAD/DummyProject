@@ -4,7 +4,7 @@
 
 
 /**
- * Dump erro insufficient memory message and terminate the program
+ * Dump error insufficient memory message and terminate the program
  */
 void memAllocError() {
   printf("System Error: insufficient memory\n");
