@@ -5,7 +5,8 @@
 // Add some message here
 
 /**
-//
+ * This main is for testing functions and modules
+ */
 int main()
 {
     List *l = createList();
