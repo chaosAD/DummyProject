@@ -8,7 +8,7 @@ int main()
 {
     List *l = createList();
 
-    printf("hi there my friend\n");
+    printf("hi there my dear friend\n");
 
     printf("Hello world!\n");
     return 0;
