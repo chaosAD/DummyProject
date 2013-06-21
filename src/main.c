@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include "List.h"
 
-// Add some message here
 
 int main()
 {
