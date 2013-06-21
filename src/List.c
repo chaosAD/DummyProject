@@ -16,8 +16,23 @@ void memAllocError() {
 List *createList() {
   List *list = malloc(sizeof(List));
   if(!list) memAllocError();
+  list->repr = NULL;
   list->next = NULL;
   return list;
+}
+
+/**
+ * Prepend object to list.
+ * STATUS: Work-in-progress
+ */
+void listPrepend(List **head, void *obj) {
+  List *cur, *list = createList();
+
+  list->item = obj;
+  if((cur = *head)) {
+    list->next = cur;
+  }
+  *head = list;
 }
 
 /**

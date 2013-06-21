@@ -31,9 +31,18 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="src/Integer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Integer.h" />
 		<Unit filename="src/List.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="src/List.h" />
+		<Unit filename="src/Object.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Object.h" />
 		<Unit filename="src/main.c">
 			<Option compilerVar="CC" />
 		</Unit>
